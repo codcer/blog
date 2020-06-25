@@ -28,7 +28,8 @@
 </section>
 
 <section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>"><%= __('index.articles') %></a></span>
+  <!-- <%= __('index.articles') %> -->
+  <span class="h1"><a href="<%- url_for("archives") %>">Archives</a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
   <span class="h2"><%= __('index.topics') %></span>
   <span class="widget tagcloud">
