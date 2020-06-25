@@ -20,7 +20,7 @@ after_script: # 最后执行的命令
   - git config user.email "2869206932@qq.com"
   - git add .
   - git commit -m "Travis upate blog"
-  - git push --force "https://${hexotravis}@${GH_REF}" master:gh-pages
+  - git push --force --quiet "https://${hexotravis}@${GH_REF}" master:gh-pages
 
 branches:
   only:
