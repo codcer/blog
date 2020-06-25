@@ -16,8 +16,8 @@ script:
 after_script: # 最后执行的命令
   - cd ./public
   - git init
-  - git config user.name "liu.fan"
-  - git config user.email "2869206932@qq.com"
+  - git config user.name "codcer"
+  - git config user.email "codcer@gmail.com"
   - git add .
   - git commit -m "Travis upate blog"
   - git push --force --quiet "https://${hexotravis}@${GH_REF}" master:gh-pages
