@@ -15,6 +15,7 @@ script:
 
 after_script: # 最后执行的命令
   - cd ./public
+  - ls
   - git init
   - git config user.name "liu.fan"
   - git config user.email "codcer@gmail.com"
