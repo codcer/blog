@@ -1,1 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T08:30:52.168Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="w3RZNQatSoqRB9Ptaau-" version="14.7.6" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-06T16:41:01.151Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="QdIFrYKYlrn-yRvNdtpf" version="14.7.6" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1426" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Bootstrap.ts&#xa;(启动入口)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="130" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="40" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="Router&#xa;&#xa;Store&#xa;&#xa;i18n&#xa;&#xa;Message" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;verticalAlign=top;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="60" y="80" width="50" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="setAppOptions&#xa;(提供App初始化&#xa;参数相关配置)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="110" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="1、通过自动&lt;br&gt;化配置参数生&lt;br&gt;成对应的router;&lt;br&gt;2、通过封装&lt;br&gt;规则,简化Store&lt;br&gt;工具方法,生&lt;br&gt;成统一配置;&lt;br&gt;3、通过国际&lt;br&gt;化,以一定规&lt;br&gt;则生成;&lt;br&gt;" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;align=left;verticalAlign=top;whiteSpace=wrap;html=1;spacingLeft=2;spacingTop=2;spacingRight=2;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="20" y="80" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-3" value="loadInterceptors" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-4" value="1、配置通用的&#xa;axios拦截层机&#xa;制;&#xa;2、传入通用的&#xa;配置项router,&#xa;store、i18n、&#xa;message等" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;spacingRight=2;" vertex="1" parent="53EMeyGauOTB7f6ot8U0-3">
+          <mxGeometry x="5.63" y="80" width="88.75" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-5" value="loadRoutes" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-6" value="1、对路由进行&#xa;组装,加入特定配&#xa;置; 如控制位、&#xa;i18n化、子座组&#xa;等;&#xa;2、路由404、&#xa;403相关路由生&#xa;成加入;" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;spacingRight=2;" vertex="1" parent="53EMeyGauOTB7f6ot8U0-5">
+          <mxGeometry x="5" y="80" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-7" value="loadGuards" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-8" value="1、路由导航的&#xa;guard;&#xa;2、权限的判定&#xa;后,有效的路由&#xa;表输出;&#xa;3、借鉴vue的全&#xa;局守卫思路;" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;spacingRight=2;" vertex="1" parent="53EMeyGauOTB7f6ot8U0-7">
+          <mxGeometry x="5" y="80" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="180" />
+              <mxPoint x="270" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-11" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Router?&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53EMeyGauOTB7f6ot8U0-10">
+          <mxGeometry x="-0.1171" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="210" />
+              <mxPoint x="270" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-13" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Store?&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53EMeyGauOTB7f6ot8U0-12">
+          <mxGeometry x="-0.1171" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="270" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;i18n?&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53EMeyGauOTB7f6ot8U0-14">
+          <mxGeometry x="-0.1171" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="250" />
+              <mxPoint x="420" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53EMeyGauOTB7f6ot8U0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="225" as="sourcePoint" />
+            <mxPoint x="176" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="576" y="225" />
+              <mxPoint x="576" y="410" />
+              <mxPoint x="176" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="53EMeyGauOTB7f6ot8U0-6" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="240" />
+              <mxPoint x="750" y="470" />
+              <mxPoint x="179" y="470" />
+              <mxPoint x="179" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="53EMeyGauOTB7f6ot8U0-8" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="225" />
+              <mxPoint x="910" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-21" value="App.jsx" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="80" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;spacingRight=2;" vertex="1" parent="53EMeyGauOTB7f6ot8U0-21">
+          <mxGeometry x="45" y="467" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="53EMeyGauOTB7f6ot8U0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="53EMeyGauOTB7f6ot8U0-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="574" />
+              <mxPoint x="400" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
